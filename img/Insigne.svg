@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64.399" height="60.259" viewBox="0 0 64.399 60.259">
+  <defs>
+    <style>.a{fill:#41c3a9;}.b{fill:#00a076;}.c{fill:#00c462;}.d{fill:#afd15a;}.e,.f{fill:none;stroke:#fff;stroke-linejoin:round;stroke-width:1.527px;}.e{stroke-linecap:round;}.e,.f,.g{opacity:0.15;}.g{fill:#fff;}</style>
+  </defs>
+  <path class="a" d="M2.131,0H16.268A2.131,2.131,0,0,1,18.4,2.131V25.07a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.131A2.131,2.131,0,0,1,2.131,0Z" transform="translate(45.999 35.189)"/>
+  <path class="b" d="M2.131,0H16.268A2.131,2.131,0,0,1,18.4,2.131V50.139a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.131A2.131,2.131,0,0,1,2.131,0Z" transform="translate(30.666 10.12)"/>
+  <path class="c" d="M2.131,0H16.268A2.131,2.131,0,0,1,18.4,2.131V60.259a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.131A2.131,2.131,0,0,1,2.131,0Z" transform="translate(15.333)"/>
+  <path class="d" d="M2.131,0H16.268A2.131,2.131,0,0,1,18.4,2.131V40.248a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2.131A2.131,2.131,0,0,1,2.131,0Z" transform="translate(0 20.01)"/>
+  <line class="e" y2="2.867" transform="translate(12.726 26.221)"/>
+  <line class="e" y2="2.867" transform="translate(5.673 26.221)"/>
+  <line class="e" y2="2.867" transform="translate(12.726 34.637)"/>
+  <line class="e" y2="2.867" transform="translate(5.673 34.637)"/>
+  <line class="e" y2="2.867" transform="translate(12.726 43.053)"/>
+  <line class="e" y2="2.867" transform="translate(5.673 43.053)"/>
+  <line class="e" y2="2.867" transform="translate(12.726 51.469)"/>
+  <line class="e" y2="2.867" transform="translate(5.673 51.469)"/>
+  <line class="e" y2="2.867" transform="translate(58.726 41.839)"/>
+  <line class="e" y2="2.867" transform="translate(51.672 41.839)"/>
+  <line class="e" y2="2.867" transform="translate(58.726 51.469)"/>
+  <line class="e" y2="2.867" transform="translate(51.672 51.469)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 16.483)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 24.054)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 31.624)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 39.195)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 46.766)"/>
+  <line class="f" x1="10.273" transform="translate(33.733 54.336)"/>
+  <path class="g" d="M1.619,0H3.53A1.619,1.619,0,0,1,5.148,1.619V7.9a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V1.619A1.619,1.619,0,0,1,1.619,0Z" transform="translate(21.959 52.362)"/>
+</svg>

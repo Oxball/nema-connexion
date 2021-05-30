@@ -1,0 +1,19 @@
+@mixin wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@mixin column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin center {
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin regular {
+  font-family: "Barlow-Regular", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}

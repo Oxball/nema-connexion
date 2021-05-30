@@ -1,0 +1,29 @@
+body,
+h1,
+h2,
+h3,
+ul,
+li,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+input,
+a {
+  outline: none;
+  border: none;
+}
+
+img {
+  aspect-ratio: attr(width) / attr(height);
+  max-width: 100%;
+  height: auto;
+}
+
+.center {
+  text-align: center;
+}

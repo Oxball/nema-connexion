@@ -1,0 +1,51 @@
+/* ============================= Min Width ============================= */
+
+@mixin mobile-L-min {
+  @media screen and (min-width: 450px) {
+    @content;
+  }
+}
+
+@mixin tablet-min {
+  @media screen and (min-width: 550px) {
+    @content;
+  }
+}
+
+@mixin tablet-L-min {
+  @media screen and (min-width: 768px) {
+    @content;
+  }
+}
+
+@mixin desktop-XS-min {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin desktop-S-min {
+  @media screen and (min-width: 1300px) {
+    @content;
+  }
+}
+
+@mixin desktop-min {
+  @media screen and (min-width: 1600px) {
+    @content;
+  }
+}
+
+/* ============================== Landscape ============================== */
+
+@mixin mobile-landscape {
+  @media screen and (min-width: 550px) and (max-width: 1024px) and (max-height: 450px) {
+    @content;
+  }
+}
+
+@mixin tablet-landscape {
+  @media screen and (min-width: 900px) and (max-width: 1024px) and (max-height: 768px) {
+    @content;
+  }
+}
