@@ -8,41 +8,47 @@
   @include column;
   @include center;
   &::before {
-    content: "";
-    width: 700px;
-    height: 700px;
-    border-radius: 65px;
     background-color: var(--accentuation-1);
     transform: translateY(-65%) rotate(45deg);
-    animation: starter 0.6s ease-out forwards;
-    position: absolute;
-    top: -400px;
-    right: -120px;
-    @keyframes top-starter {
-      to {
-        transform: translateY(0);
-      }
+    @include bckg-elements;
+    @include desktop-XS-min {
+      content: "";
+      top: -400px;
+      right: -300px;
+    }
+    @include desktop-S-min {
+      right: -200px;
+    }
+    @include desktop-min {
+      right: -120px;
     }
   }
   &::after {
-    content: "";
-    width: 700px;
-    height: 700px;
-    border-radius: 65px;
     background-color: var(--c-accentuation-2);
     transform: translateY(65%) rotate(45deg);
-    animation: starter 0.6s ease-out forwards;
-    position: absolute;
-    left: -120px;
-    bottom: -400px;
+    @include bckg-elements;
+    @include desktop-XS-min {
+      content: "";
+      bottom: -400px;
+      left: -300px;
+    }
+    @include desktop-S-min {
+      left: -200px;
+    }
+    @include desktop-min {
+      left: -120px;
+    }
   }
 }
 
 .connexion {
-  width: 500px;
+  width: 90%;
   height: 600px;
   display: grid;
   grid-template-rows: 1fr 400px 1fr;
+  @include tablet-min {
+    width: 500px;
+  }
 }
 
 .head {
