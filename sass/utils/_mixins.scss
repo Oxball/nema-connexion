@@ -17,3 +17,11 @@
   font-family: "Barlow-Regular", Arial, Helvetica, sans-serif;
   font-size: 1.2rem;
 }
+
+@mixin bckg-elements {
+  width: 700px;
+  height: 700px;
+  border-radius: 65px;
+  animation: bckg-starter 0.6s ease-out forwards;
+  position: absolute;
+}

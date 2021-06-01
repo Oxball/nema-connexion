@@ -16,8 +16,9 @@ for (let i = 0; i < 2; i++) {
 }
 
 inputList[0].addEventListener('input', e => {
+  const path = e.composedPath();
   if (e.data !== null) userID.push(e.data);
   else userID.pop();
-  if (userID.join('') === "Laure") e.path[1].classList.add('form__label--valid');
-  else e.path[1].classList.remove('form__label--valid');
+  if (userID.join('') === "Laure") path[1].classList.add('form__label--valid');
+  else path[1].classList.remove('form__label--valid');
 });
